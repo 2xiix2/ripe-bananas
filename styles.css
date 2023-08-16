@@ -9,7 +9,7 @@
 header {
     display: flex;
     align-items: start;
-    
+
 }
 
 #homepage-p-italics {
@@ -35,9 +35,10 @@ body {
     text-align: center;
     top: 0;
 }
+
 .container-logo a {
     /* align-items: center */
-    flex-direction: column ;
+    flex-direction: column;
     display: flex;
     justify-content: column;
     padding: 0;
@@ -61,7 +62,11 @@ body {
     transition: 6s;
 }
 
-.container-plats .box #tubi, #max, #disney, #netflix, #hulu{
+.container-plats .box #tubi,
+#max,
+#disney,
+#netflix,
+#hulu {
     position: relative;
     width: 660px;
     height: 300px;
@@ -87,6 +92,7 @@ body {
     transition-delay: 0.3s;
     cursor: pointer;
 }
+
 .plat-links:hover {
     color: aliceblue;
     transition-delay: 0.1s;
@@ -98,7 +104,7 @@ img {
     padding: 2px;
     width: 80px;
     display: flexbox;
-  /* margin-left: auto;
+    /* margin-left: auto;
   margin-right: auto; */
 }
 
@@ -117,7 +123,7 @@ img:hover {
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* a {
@@ -189,9 +195,9 @@ article {
 }
 
 #foot {
-        width: 100dvh;
-        color: white;
-        text-align: right;
-        margin-top: auto;
-        justify-content: space-around;
+    width: 100dvh;
+    color: white;
+    text-align: right;
+    margin-top: auto;
+    justify-content: space-around;
 }
